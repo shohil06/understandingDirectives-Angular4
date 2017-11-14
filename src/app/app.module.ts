@@ -5,9 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+// Imported USer Defined Components and Directives
+import { basicHighlightDirective } from './basic-highlight/basic-highlight.directive';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    basicHighlightDirective
   ],
   imports: [
     BrowserModule,
