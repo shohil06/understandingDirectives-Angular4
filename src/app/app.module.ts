@@ -10,12 +10,15 @@ import { basicHighlightDirective } from './basic-highlight/basic-highlight.direc
 import { BetterHighlightDirective } from './better-highlight/better-highlight.directive';
 import { TrialComponent } from './pavanExaminer/trial.component';
 
+import { unlessStructuralDirective } from './unless-structuralDirective/unless.directive';
+
 @NgModule({
   declarations: [
     AppComponent,
     basicHighlightDirective,
     BetterHighlightDirective,
-    TrialComponent
+    TrialComponent,
+    unlessStructuralDirective
   ],
   imports: [
     BrowserModule,
