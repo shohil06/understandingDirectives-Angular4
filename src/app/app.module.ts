@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 
 // Imported USer Defined Components and Directives
 import { basicHighlightDirective } from './basic-highlight/basic-highlight.directive';
+import { BetterHighlightDirective } from './better-highlight/better-highlight.directive';
+import { TrialComponent } from './pavanExaminer/trial.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    basicHighlightDirective
+    basicHighlightDirective,
+    BetterHighlightDirective,
+    TrialComponent
   ],
   imports: [
     BrowserModule,
